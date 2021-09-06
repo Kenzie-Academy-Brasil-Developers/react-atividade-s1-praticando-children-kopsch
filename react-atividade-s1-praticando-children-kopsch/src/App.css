@@ -1,0 +1,37 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(87, 0, 185);
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  background-color: #a4edff;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:nth-child(2) {
+  background-color: #ffc5cf;
+}
+
+.card:nth-child(3) {
+  background-color: rgb(255, 255, 166);
+}
